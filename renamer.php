@@ -41,7 +41,7 @@ if( $delete_script_when_finished ){
 	unlink( __FILE__ );
 }
 if( $rename_parent_directory ){
-	replace_in_path( 'New_Addon', $replace, $folder_path );
+	replace_in_path( $search, $replace, $folder_path );
 }
 echo "<br><hr>ok folders renamed!";
 if( $delete_script_when_finished ){
